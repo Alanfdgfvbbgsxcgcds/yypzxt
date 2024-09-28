@@ -1,7 +1,7 @@
 // 二次封装axios
 import axios from 'axios'
 const request = axios.create({
-  baseUrl: 'https://v3pz.itndedu.com/v3pz',
+  // baseUrl: 'https://v3pz.itndedu.com/v3pz',
   timeout: 10000,
   headers: { 'terminal': 'h5' }
 })
