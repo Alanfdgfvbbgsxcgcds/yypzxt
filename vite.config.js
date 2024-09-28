@@ -7,6 +7,7 @@ export default {
   server: {
     port: 5500
   },
+  base: '/yypzxt/',
   plugins: [
     vue(),
     AutoImport({
