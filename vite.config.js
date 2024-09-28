@@ -6,7 +6,7 @@ import { VantResolver } from '@vant/auto-import-resolver';
 export default {
 
   server: {
-    port: 5500,
+
     proxy: {
       // 匹配所有以 '/v3pz' 开头的请求
       '/v3pz': {
